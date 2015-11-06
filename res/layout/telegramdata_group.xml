@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    
+     > 
+
+
+	<LinearLayout 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_weight="1"
+    	>    
+    	<ImageView 
+        	
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+       	 	android:src="@drawable/mail_normal"
+       	 	
+        />    	
+    	<TextView 
+    	    android:id="@+id/group_level_title"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="普通"
+    	    />    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	
+    	android:layout_weight="12"
+	    >
+    	<LinearLayout 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal"
+    	    >
+    	    <TextView 
+    	        android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="主 题："
+    	        />
+    	     <TextView 
+    	        android:id="@+id/group_theme_textview"
+    	        android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="两会指导精神报告"
+    	        />
+    	     <ImageView 
+    	        android:id="@+id/group_additon_image"
+    	        android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:src="@drawable/addit"
+    	         />   	     
+    	</LinearLayout>
+    	<LinearLayout 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal"
+    	    >
+    	    <TextView 
+    	        android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="内 容："
+    	        />
+    	    <TextView 
+    	        android:id="@+id/group_content_textview"
+    	        android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+    	        />   	    
+    	</LinearLayout>
+	    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_weight="2"
+    
+	    >
+    	<TextView 
+    	    android:id="@+id/group_receiver"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="收件人A\n收件人B"
+    	    />
+    	<ImageView 
+    	    android:id="@+id/group_ispand"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/retract"
+    	    />
+	    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_weight="2"
+    
+	    >
+    	<TextView 
+    	    android:id="@+id/group_time"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="09:35:03\n2015-11-03"
+    	    />
+   
+	</LinearLayout>
+	
+	
+	
+	
+	
+
+    
+
+</LinearLayout>

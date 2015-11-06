@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"   > 
+  <LinearLayout 
+      	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_weight="1"
+    	android:paddingLeft="30dp"
+      >
+      <ImageView 
+          android:id="@+id/child_mail_state_image"
+          android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:src="@drawable/mail_read"
+    	
+          />
+      <TextView 
+          android:id="@+id/child_mail_state"
+          android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:text="已读"
+          />
+      
+  </LinearLayout> 
+  
+  <LinearLayout 
+      	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_weight="4"
+      >
+      <TextView 
+          	android:id="@+id/child_partment"
+          	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="收报单位\n中国铁路总工会"
+          />
+       <ImageView 
+          android:id="@+id/child_person_state"
+          android:layout_width="wrap_content"
+    	  android:layout_height="wrap_content"
+    	  android:paddingLeft="2dp"
+    	  android:src="@drawable/online"
+    	
+          />     
+  </LinearLayout>
+  
+  <TextView 
+      	android:id="@+id/child_telephone"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="电话\n86-188-8888-8888"
+    	android:layout_weight="4"
+      />
+   <TextView 
+       	android:id="@+id/child_place"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="地点\n北京市朝阳区三里屯北34号"
+    	android:layout_weight="4"
+      />
+
+    <TextView 
+        android:id="@+id/child_read_time"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="读取时间\n09:40:04\n2015-11-03"
+    	android:layout_weight="2"
+      />
+</LinearLayout>
